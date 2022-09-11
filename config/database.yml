@@ -50,6 +50,7 @@ test:
 #
 production:
   <<: *default
+  host: zinmoe-testing.c5em1aikdxab.ap-southeast-1.rds.amazonaws.com
   database: quote_editor_production
-  username: quote_editor
-  password: <%= ENV["QUOTE_EDITOR_DATABASE_PASSWORD"] %>
+  username: zinmoe
+  password: password
