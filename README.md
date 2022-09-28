@@ -19,7 +19,7 @@ https://www.hotrails.dev/turbo-rails/css-ruby-on-rails
 
 
 ### Tag image
-- docker tag b5209a79df2c 491236099115.dkr.ecr.ap-southeast-1.amazonaws.com/quote-editor:latest
+- docker tag 39854094ae4c 491236099115.dkr.ecr.ap-southeast-1.amazonaws.com/quote-editor:latest
 
 
 ### Push image

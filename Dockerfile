@@ -55,7 +55,7 @@ RUN bundle install --jobs 4
 
 ADD . $app_path
 
-RUN bundle exec rake assets:precompile
+RUN RAILS_ENV=production bundle exec rake assets:precompile
 
 RUN ["chmod", "+x", "/usr/src/app/entrypoint.sh"]
 ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
